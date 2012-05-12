@@ -5,7 +5,7 @@ if ( ! defined('EXT')) exit('Invalid file request');
 /**
  * Simple SAEF Enctype
  *
- * This extension provides a simple way to add "multipart/form-data" to your SAEF forms.
+ * Add "multipart/form-data" to your SAEF forms. For ExpressionEngine 1 & 2.
  *
  * @author    John D Wells <john@johndwells.com>
  * @copyright Copyright (c) 2009 John D Wells
@@ -15,11 +15,11 @@ if ( ! defined('EXT')) exit('Invalid file request');
 class simple_saef_enctype
 {
 	var $settings		= array();
-	var $name			= "Simple SAEF Enctype";
-	var $version		= "0.0.2";
-	var $description	= "This extension provides a simple way to add 'multipart/form-data' to your SAEF forms.";
-	var $settings_exits	= "n";
-	var $docs_url		= "";
+	var $name			= 'Simple SAEF Enctype';
+	var $version		= '0.0.2';
+	var $description	= 'Add "multipart/form-data" to your SAEF forms. For ExpressionEngine 1 & 2.';
+	var $settings_exits	= 'n';
+	var $docs_url		= 'https://github.com/johndwells/Simple-SAEF-Enctype';
 	
 	/**
      *	PHP4 Constructor
